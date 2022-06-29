@@ -1,0 +1,228 @@
+body {
+  font-family: charis sil;
+}
+/* navbar */
+.khusus,
+.jumbotron a {
+  background-color: #eec4ea;
+  border-radius: 5px;
+  text-align: center;
+}
+/* jumbotron */
+.jumbotron .container {
+  position: relative;
+  z-index: 3;
+}
+.jumbotron {
+  background-image: url(image/logo\ besar.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 540px;
+  position: relative;
+  margin-top: 30px;
+}
+.jumbotron h5 {
+  padding-top: 80px;
+}
+.jumbotron h5,
+h3 {
+  margin-left: -5%;
+  text-shadow: 1px 1px black;
+}
+.jumbotron a {
+  margin-top: 20px;
+  text-shadow: 1px 1px black;
+}
+.jumbotron::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+/* tentang */
+.tentang,
+.quotes {
+  background-color: #eec4ea;
+}
+.tentang .tama {
+  margin-top: 140px;
+}
+.tentang .tntngsatu,
+.ywd {
+  margin-top: 75px;
+}
+.ua {
+  padding-top: 100px;
+}
+.atu .card-title {
+  padding-top: 30px;
+}
+.atu h5,
+.atu p {
+  margin: 40px auto;
+}
+.ua .atu {
+  background-color: rgb(158, 77, 154);
+  border-radius: 7px;
+}
+.ua svg {
+  width: 40px;
+  height: 23px;
+}
+/* layanan */
+.layanan h2 {
+  margin: -5% auto 3%;
+}
+.layanan .card {
+  background-color: #eec4ea;
+}
+.layanan img {
+  display: block;
+  margin: 30px auto;
+}
+.layanan h5 {
+  padding-bottom: 10px;
+}
+.layanan .rguatas {
+  margin: 30px 0;
+}
+/* quotes */
+.petik {
+  display: block;
+  margin: 100px auto 20px;
+}
+.kata {
+  margin: 0 75px 0;
+}
+.tanda {
+  font-family: dancing script;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+.dempet,
+.dmpet {
+  padding-right: 0;
+  padding-left: 0;
+}
+.dempet {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/* team */
+.team h2 {
+  margin: -5% auto 3%;
+}
+.team .card {
+  margin: 30px auto 5px;
+}
+.team .card-body {
+  background-color: #eec4ea;
+}
+/* daftar */
+.daftar {
+  background-color: #eec4ea;
+}
+.daftar .pendaftaran {
+  margin: 0 auto 3%;
+}
+.daftar a {
+  display: block;
+  width: 200px;
+  margin: 10px auto 0;
+}
+/* maps */
+.maps .hub {
+  margin: 30px auto 0;
+}
+.maps .almt {
+  margin: 50px 0 10px;
+}
+.maps .jam {
+  margin: 40px 0 10px;
+}
+.maps .sore {
+  margin-bottom: 0;
+}
+.maps .garis {
+  margin: 0 0 0;
+}
+/* footer */
+footer .cpy {
+  margin: 50px auto 0;
+}
+footer .cpy a {
+  text-decoration: none;
+}
+
+/* RESPONSIVE BREAKPOINT */
+@media (max-width: 991px) {
+  .tentang .tama {
+    margin-top: 10%;
+  }
+  .tama .ywd {
+    margin-top: 5%;
+  }
+  .layanan .jdikdua {
+    margin: 0 0;
+  }
+  .layanan .trkhir {
+    margin: 30px 0;
+  }
+  .hapus {
+    display: none;
+  }
+  .tanda {
+    padding-bottom: 150px;
+  }
+  .dempet {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
+  }
+  .dmpet img {
+    display: block;
+    margin: -20% auto 0;
+    width: 75%;
+  }
+  .team .card {
+    width: 75% !important;
+  }
+}
+@media (max-width: 768px) {
+  .jumbotron {
+    background-position: center;
+  }
+  .jumbotron h5,
+  h3 {
+    margin-left: auto;
+    text-align: center;
+  }
+  .jumbotron h5 {
+    padding-top: 250px;
+  }
+  .hapus {
+    display: none;
+  }
+  .dempet {
+    width: 85%;
+  }
+  .team .card {
+    width: 85% !important;
+  }
+}
+@media (max-width: 600px) {
+  .layanan .card-title {
+    font-size: 17px;
+  }
+  .layanan .kecilkan {
+    font-size: 15px;
+  }
+  footer .cpy {
+    font-size: 13px;
+  }
+}
