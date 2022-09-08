@@ -122,6 +122,9 @@ h3 {
 .team .card-body {
   background-color: #eec4ea;
 }
+.team .tuning br {
+  display: none;
+}
 /* daftar */
 .daftar {
   background-color: #eec4ea;
@@ -218,6 +221,9 @@ footer .cpy a {
 @media (max-width: 600px) {
   .layanan .card-title {
     font-size: 17px;
+  }
+  .team .tuning br {
+    display: block;
   }
   footer .cpy {
     font-size: 13px;
