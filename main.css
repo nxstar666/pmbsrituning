@@ -109,8 +109,11 @@ h3 {
   padding-left: 0;
 }
 .dempet {
-  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+}
+.dmpet {
+  margin-top: -25px;
 }
 /* team */
 .team h2 {
